@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB0688172BBADD3B004C1C1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0688152BBADD3B004C1C1E /* Main.storyboard */; };
 		EB3095032BB01AD200EE7893 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3095022BB01AD200EE7893 /* AppDelegate.swift */; };
 		EB3095052BB01AD200EE7893 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3095042BB01AD200EE7893 /* SceneDelegate.swift */; };
 		EB3095072BB01AD200EE7893 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3095062BB01AD200EE7893 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB0688162BBADD3B004C1C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DictionaryApp/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB3094FF2BB01AD200EE7893 /* DictionaryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictionaryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3095022BB01AD200EE7893 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB3095042BB01AD200EE7893 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		EB3094F62BB01AD100EE7893 = {
 			isa = PBXGroup;
 			children = (
+				EB0688152BBADD3B004C1C1E /* Main.storyboard */,
 				EB3095012BB01AD200EE7893 /* DictionaryApp */,
 				EB3095182BB01AD300EE7893 /* DictionaryAppTests */,
 				EB3095222BB01AD300EE7893 /* DictionaryAppUITests */,
@@ -234,6 +237,7 @@
 				EB30950F2BB01AD300EE7893 /* LaunchScreen.storyboard in Resources */,
 				EB30950C2BB01AD300EE7893 /* Assets.xcassets in Resources */,
 				EB30950A2BB01AD200EE7893 /* Main.storyboard in Resources */,
+				EB0688172BBADD3B004C1C1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +301,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		EB0688152BBADD3B004C1C1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB0688162BBADD3B004C1C1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		EB3095082BB01AD200EE7893 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
